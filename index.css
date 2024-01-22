@@ -1,0 +1,102 @@
+* {
+    margin: 2px;
+}
+html, body {
+    margin: 0px;
+}
+
+body{
+    background-color: paleturquoise;
+}
+
+
+
+#nav {
+    background-color: black;
+    border: 1px solid #000;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    margin: 0px;
+    margin-bottom: 10px;
+}
+
+#nav a{
+    text-decoration: none; 
+    color: white;
+    font-size: 20px;
+
+}
+
+#body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#output {
+    background-color: aquamarine;
+    height: 300px;
+    width: calc(100% - 100px);
+
+    overflow-y: auto;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 20px;
+  }
+  
+  #outputBox {
+    width: 98.5%;
+    min-height: 80%;
+    height: fit-content;
+    background-color: aquamarine;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 5px;
+  }
+
+#firstFour{
+    display: flex;
+}
+
+#firstTwo{
+    display: flex;
+    flex-direction: column;
+    width: 160px;
+}
+#secondTwo{
+    display: flex;
+    flex-direction: column;
+    width: 160px;
+}
+
+#graph {
+    height: 500px;
+    width: calc(100% - 100px);
+    border: 1px solid #000;
+    overflow: hidden;
+    position: relative;
+}
+
+button, select{
+    font-size: 20px;
+    background-color: aquamarine;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+button:active{
+    box-shadow: 2px 2px 5px gray;
+}
+#run, 
+#clearAllBtn,
+#setAsSourceBtn,
+#setAsDestinationBtn,
+#removeSourceBtn,
+#removeDestinationBtn,
+#resetBtn
+{
+    width: 320px;
+}
